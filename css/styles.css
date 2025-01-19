@@ -208,16 +208,15 @@ h3 {
 
 .visually-hidden {
   position: absolute; /* Абсолютне позиціонування */
-  width: 1px; /* Дуже маленька ширина */
-  height: 1px; /* Дуже маленька висота */
-  margin: 0; /* Видалення зовнішніх відступів */
-  padding: 0; /* Видалення внутрішніх відступів */
-  overflow: hidden; /* Приховує текст за межами контейнера */
-  clip: rect(0 0 0 0); /* Обрізає весь вміст */
+  width: 1px; /* Робимо елемент невидимим */
+  height: 1px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Ховаємо вміст */
+  clip: rect(0 0 0 0); /* Обрізаємо текст */
   white-space: nowrap; /* Текст не переноситься */
-  border: 0; /* Видаляє рамки (якщо є) */
+  border: 0;
 }
-
 .adventages-list {
   display: flex;
   justify-content: space-between; /* Вирівнюємо блоки */
