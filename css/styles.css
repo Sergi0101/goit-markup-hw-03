@@ -60,14 +60,14 @@ h3 {
 /* Header */
 .header {
   border-bottom: 1px solid #e7e9fc;
-  padding: 0 15px;
+  padding: 24px 0;
 }
 .header-container {
   display: flex;
   justify-content: space-between;
   max-width: 1158px;
   margin: 0 auto;
-  padding: 24px 0;
+
   align-items: center;
 }
 .navigation {
